@@ -855,6 +855,97 @@ img {
   display: none;
 }
 
+.tarif {
+  position: relative;
+}
+
+.tarif__container {
+  padding: 50px 0px 0px 0px;
+}
+
+.tarif__title {
+  text-align: center;
+  margin: 0px 0px 230px 0px;
+}
+
+.tarif__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tarif__bg {
+  top: -1px;
+}
+
+.tarif__bg img {
+  min-height: 1556px;
+}
+
+.inner-tarif__item {
+  position: relative;
+  z-index: 1;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+.inner-tarif__wrap {
+  border-radius: 20px 40px 40px;
+  background-color: #ffffff;
+  padding: 40px;
+  color: #010101;
+  position: relative;
+  z-index: 2;
+}
+
+.inner-tarif__title {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.inner-tarif__title span {
+  font-size: 3.8rem;
+  display: block;
+  margin: 0px 0px 20px 0px;
+}
+
+.inner-tarif__text {
+  font-size: 1.8rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.inner-tarif__text span {
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: block;
+  margin: 0px 0px 5px 0px;
+}
+
+.inner-tarif__price {
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin: 50px 0px 30px 0px;
+}
+
+.inner-tarif__btn {
+  text-align: center;
+}
+
+.inner-tarif__img {
+  position: absolute;
+  top: -170px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: -2;
+}
+
 .qustions {
   position: relative;
 }
@@ -1182,7 +1273,7 @@ img {
   }
 
   .program__container {
-    padding: 100px 0px 150px 0px;
+    padding: 100px 0px 70px 0px;
   }
 
   .program__title {
@@ -1211,6 +1302,33 @@ img {
   .inner-program__btn {
     font-size: 1.6rem;
     padding: 20px 30px;
+  }
+
+  .tarif__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0px 20px;
+  }
+
+  .tarif__bg img {
+    min-height: 3715px;
+  }
+
+  .inner-tarif__item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin: 0px 0px 250px 0px;
+  }
+
+  .inner-tarif__text {
+    font-size: 1.6rem;
+  }
+
+  .inner-tarif__text span {
+    font-size: 2rem;
   }
 
   .qustions__container {
